@@ -11,6 +11,7 @@ public class AppleTree : MonoBehaviour {
 	
 
 	void Start () {
+		InvokeRepeating ("DropApple", 2f, secondsBetweenAppleDrops);
 	}
 
 	void Update () {
